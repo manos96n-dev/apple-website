@@ -8,7 +8,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <main className="bg-black">
+    <main className="bg-black overflow-scroll">
       <NavBar />
       <Hero />
       <Highlights />
