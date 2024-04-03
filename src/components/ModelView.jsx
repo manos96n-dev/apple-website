@@ -4,6 +4,7 @@ import * as THREE from 'three';
 import Lights from './Lights';
 import IPhone from './IPhone';
 import Loader from './Loader';
+import Macbook from './Macbook';
 
 const ModelView = ({
   index,
@@ -48,6 +49,7 @@ const ModelView = ({
             item={item}
             size={size}
           />
+          {/* <Macbook scale={[8, 8, 8]} item={item} size={size} /> */}
         </Suspense>
       </group>
     </View>
